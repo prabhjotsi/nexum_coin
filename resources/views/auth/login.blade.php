@@ -63,65 +63,58 @@ body{height: 100%;max-height: unset;background: url('public/frontend/images/1267
         <div class="spinner-border color-highlight" role="status"></div>
     </div>
 
-    <div >
-        
-
-        <div class=" footer-clear">
-            
-            <div class="card-center mt-5 mx-3 px-4 py-4 bg-white rounded-m" style="background: white;">
-                <img src="public/frontend/images/nxm_logo.svg" style="width:200px" />
-                <h1 class="font-30 font-800 mb-0">Nexum Coins</h1>
-                <p>Login to your Account.</p>
-                <form action="{{ route('login') }}" method="post">
-                    @csrf
-                  <!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row"> -->
-                    <div class="col-12 col-lg-6 col-md-6">
-                        <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
-                            <i class="bi bi-person-circle font-13"></i>
-                            <input type="email" required class="form-control "  rounded-xs id="email" name="email" :value="old('email')" placeholder="Enter User Id">
-                            <label for="ownid" class="color-theme" :value="__('Email')">User Id</label>
-                            <span>(required)</span>
-                           
+        <div >
+            <div class=" footer-clear">
+                <div class="card-center mt-5 mx-3 px-4 py-4 bg-white rounded-m" style="background: white;">
+                    <img src="public/frontend/images/nxm_logo.svg" style="width:200px" />
+                    <h1 class="font-30 font-800 mb-0">Nexum Coins</h1>
+                    <p>Login to your Account.</p>
+                    <form action="{{ route('login') }}" method="post">
+                        @csrf
+                        <!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row"> -->
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
+                                <i class="bi bi-person-circle font-13"></i>
+                                <input type="email" required class="form-control "  rounded-xs id="email" name="email" :value="old('email')" placeholder="Enter User Id">
+                                <label for="ownid" class="color-theme" :value="__('Email')">User Id</label>
+                                <span>(required)</span>
+                            
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-6 col-md-6">
-                        <div class="form-custom form-label form-border form-icon mb-4 bg-transparent">
-                            <i class="bi bi-asterisk font-13"></i>
-                            <input type="password" required autocomplete="current-password" class="form-control rounded-xs "  id="password" name="password" placeholder="Enter Password">
-                            <label for="password" class="color-theme" :value="__('Password')">Password</label>
-                            <span>(required)</span>
-                                               
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="form-custom form-label form-border form-icon mb-4 bg-transparent">
+                                <i class="bi bi-asterisk font-13"></i>
+                                <input type="password" required autocomplete="current-password" class="form-control rounded-xs "  id="password" name="password" placeholder="Enter Password">
+                                <label for="password" class="color-theme" :value="__('Password')">Password</label>
+                                <span>(required)</span>
+                                                
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-6 col-md-6">
-                        <div class="form-check form-check-custom">
-                            <input class="form-check-input" type="checkbox" name="type" value="" id="c2a">
-                            <label class="form-check-label font-12" for="c2a">Remember this account</label>
-                            <i class="is-checked color-highlight font-13 bi bi-check-circle-fill"></i>
-                            <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="form-check form-check-custom">
+                                <input class="form-check-input" type="checkbox" name="type" value="" id="c2a">
+                                <label class="form-check-label font-12" for="c2a">Remember this account</label>
+                                <i class="is-checked color-highlight font-13 bi bi-check-circle-fill"></i>
+                                <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <x-button class="ml-3">
-                    {{ __('Log in') }}
-                </x-button>
-                <!-- <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
-      </form>
-                <div class="row">
-                    <div class="col-6 text-start">
-                        <a  class="font-11 color-theme  pt-4 d-block" href="{{ route('password.request') }}">Forgot Password?</a>
-                    </div>
-                    <div class="col-6 text-end">
-                        <a href="{{ route('register') }}" class="font-11 color-theme  pt-4 d-block">
-                            <span>Create Account</span>
-                        </a>
+                        <x-button class="ml-3">
+                            {{ __('Log in') }}
+                        </x-button>
+                        <!-- <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
+                    </form>
+                    <div class="row">
+                        <div class="col-6 text-start">
+                            <a  class="font-11 color-theme  pt-4 d-block" href="{{ route('password.request') }}">Forgot Password?</a>
+                        </div>
+                        <div class="col-6 text-end">
+                            <a href="{{ route('register') }}" class="font-11 color-theme  pt-4 d-block">
+                                <span>Create Account</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
 
         <!-- <script src="scripts/bootstrap.min.html"></script> -->
