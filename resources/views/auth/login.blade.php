@@ -98,7 +98,7 @@ body{height: 100%;max-height: unset;background: url('public/frontend/images/1267
                                 <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
                             </div>
                         </div>
-                        <x-button class="ml-3">
+                        <x-button class="btn btn-primary m-3">
                             {{ __('Log in') }}
                         </x-button>
                         <!-- <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
