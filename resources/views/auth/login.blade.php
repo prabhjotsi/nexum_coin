@@ -7,9 +7,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <title>Nexum Coin</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/frontend/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="public/frontend/css/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="public/frontend/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
     <!-- <link rel="manifest" href="_manifest.html"> -->
@@ -27,7 +27,7 @@
         
         .nav-tabs .nav-link {margin-bottom: -1px; background: 0 0; border: 1px solid transparent; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; font-size: 20px;}
         .invalid-feedback {display: block;width: 100%;margin-top: 0.25rem;font-size: .875em;color: #dc3545;}
-body{height: 100%;max-height: unset;background: url('images/1267580.jpg');
+body{height: 100%;max-height: unset;background: url('public/frontend/images/1267580.jpg');
 }
 
 .form-custom>span{color:black; font-weight:600;}
@@ -69,10 +69,11 @@ body{height: 100%;max-height: unset;background: url('images/1267580.jpg');
         <div class=" footer-clear">
             
             <div class="card-center mt-5 mx-3 px-4 py-4 bg-white rounded-m" style="background: white;">
-                <img src="images/nxm_logo.svg" style="width:200px" />
+                <img src="public/frontend/images/nxm_logo.svg" style="width:200px" />
                 <h1 class="font-30 font-800 mb-0">Nexum Coins</h1>
                 <p>Login to your Account.</p>
-                                <form action="https://www.nexumcoins.com/login" method="post">
+                <form action="{{ route('login') }}" method="post">
+                    @csrf
                   <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row">
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
@@ -101,14 +102,17 @@ body{height: 100%;max-height: unset;background: url('images/1267580.jpg');
                         </div>
                     </div>
                 </div>
+                <x-button class="ml-3">
+                    {{ __('Log in') }}
+                </x-button>
                 <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">
       </form>
                 <div class="row">
                     <div class="col-6 text-start">
-                        <a  class="font-11 color-theme  pt-4 d-block" href="https://www.nexumcoins.com/password/reset">Forgot Password?</a>
+                        <a  class="font-11 color-theme  pt-4 d-block" href="{{ route('password.request') }}">Forgot Password?</a>
                     </div>
                     <div class="col-6 text-end">
-                        <a href="register.html" class="font-11 color-theme  pt-4 d-block">
+                        <a href="{{ route('register') }}" class="font-11 color-theme  pt-4 d-block">
                             <span>Create Account</span>
                         </a>
                     </div>
@@ -121,9 +125,9 @@ body{height: 100%;max-height: unset;background: url('images/1267580.jpg');
         </div>
 
         <!-- <script src="scripts/bootstrap.min.html"></script> -->
-        <script src="js/custom.js"></script>
+        <script src="public/frontend/js/custom.js"></script>
         <!-- JavaScript Bundle with Popper -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="public/frontend/js/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modalmanager.min.js" integrity="sha512-/HL24m2nmyI2+ccX+dSHphAHqLw60Oj5sK8jf59VWtFWZi9vx7jzoxbZmcBeeTeCUc7z1mTs3LfyXGuBU32t+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 

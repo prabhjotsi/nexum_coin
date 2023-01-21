@@ -211,7 +211,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     </ul>
                                     @if (Route::has('login'))
                                     <div class="Header_buttons__2lJrb">
-                                        <!-- <a class="" href="login.html">Login</a> -->
+                                      
 
                                         @auth
                                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
@@ -226,7 +226,7 @@ s0.parentNode.insertBefore(s1,s0);
                             </div>
                         </nav>
                         <nav class="Header_MobileNavigation__37BHg">
-                            <a href="login.html">
+                            <a href="{{ route('login') }}">
                                 <img src="public/frontend/images/nxm_logo.svg" class="" /></a>
                             <a  href="javascript:void(0)">
                                 <img class="Header_twitterLogo__1jtfu" src="public/frontend/icons/twitter_logo.svg" alt="twitter-logo" />
@@ -251,20 +251,13 @@ s0.parentNode.insertBefore(s1,s0);
                                     </ul>
                                     @if (Route::has('login'))
                                     <div class="Header_buttons__2lJrb">
-                                        <!-- <a class="" href="login.html">Login</a> -->
-
                                         @auth
                                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                                         @else
                                         <a href="{{ route('login') }}" class="Header_button__3DIJh">Log in</a>
                                         @endauth
-
-
                                     </div>
                                     @endif
-                                    <!-- <div class="Header_buttons__2lJrb">
-                                        <a class="Header_button__3DIJh" href="login.html">Login</a>
-                                    </div> -->
                                 </div>
                             </div>
                         </nav>
@@ -316,7 +309,7 @@ s0.parentNode.insertBefore(s1,s0);
     justify-content: center;
 ">
                       <h1>15 Coin = 1 $</h1>
-                            <a href="login.html" style="
+                            <a href="{{ route('login') }}" style="
     background: #03b4b3;
     height: 20px;
     padding: 10px;
