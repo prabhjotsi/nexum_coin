@@ -5,7 +5,7 @@
 # Laravel 9 Multi Auth System using laravel/breeze package
 
 
-## Login page
+<!-- ## Login page
 ![alt text](https://github.com/AjayYadavAi/laravel-9-multi-auth-system/blob/main/login.png?raw=true)
 
 
@@ -15,7 +15,7 @@
 
 ## Dashboard page
 ![alt text](https://github.com/AjayYadavAi/laravel-9-multi-auth-system/blob/main/dashboard.png?raw=true)
-
+ -->
 
 
 
