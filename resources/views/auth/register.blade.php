@@ -83,12 +83,13 @@ body{
                             <input type="text" required  class="form-control rounded-xs " id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
                             <label for="sponsorcode" id="sponsor_id" class="color-theme">Sponsor Code</label>
                             <span>(required)</span>
-							<span id="spon_msg"></span>
+							
+                        </div>
+						<span id="spon_msg"></span>
 							@error('sponsor_id')
 								<br>
 								<span class="text-danger">{{$message}}</span>
 							@enderror
-                        </div>
                     </div>
 					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
