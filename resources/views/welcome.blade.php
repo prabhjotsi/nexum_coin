@@ -306,14 +306,14 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
     </div>
                         <div class="Platforms_platforms__3UirB">
-                            <a  href="javascript:void(0)"><img src="images/coinmarketcap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="images/coingecko.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="images/etherscan.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/coinmarketcap.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/coingecko.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/etherscan.svg" alt="linkedin-logo" /></a>
                         </div>
                         <div class="Platforms_platformsBottom__1L_eM">
-                            <a  href="javascript:void(0)"><img src="images/apeswap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="images/pancakeswap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="images/quickswap.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/apeswap.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/pancakeswap.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/quickswap.svg" alt="linkedin-logo" /></a>
                         </div>
                     </div>
                 </section>
@@ -322,13 +322,13 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="DontMiss_content__2UJfq">
                         <a  class="DontMiss_articleCard__2piy6" href="javascript:void(0)">
                             <div>
-                                <img src="images/yahoo.svg" alt="yahoo" />
+                                <img src="public/frontend/images/yahoo.svg" alt="yahoo" />
                                 <p>Our Partnership with Investment Fund from UAE</p>
                             </div>
                         </a>
                         <a  class="DontMiss_articleCard__2piy6" href="javascript:void(0)">
                             <div>
-                                <img src="images/cryptopolitan.svg" alt="cryptopolitan" />
+                                <img src="public/frontend/images/cryptopolitan.svg" alt="cryptopolitan" />
                                 <p>Nexum Building Blockchain-based Carbon Credit Exchange Platform</p>
                             </div>
                         </a>
