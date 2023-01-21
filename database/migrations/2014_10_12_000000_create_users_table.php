@@ -20,8 +20,23 @@ return new class extends Migration
             $table->string('phone')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('username')->unique();
+            $table->string('sponsor_code');
+            $table->float('total_deposite')->default(0);
+            $table->bigInteger('direct_group')->default(0);
+            $table->bigInteger('total_group')->default(0);
+            $table->tinyInteger('is_active')->default(0);
+            $table->string('active_date')->nullable();
+            $table->float('total_income')->default(0);
+            $table->float('total_withdraw')->default(0);
+            $table->float('current_withdraw_request')->default(0);
+            $table->bigInteger('total_group_active')->default(0);
+            $table->float('total_group_deposite')->default(0);
+            $table->tinyInteger('status')->default(1);
             $table->rememberToken();
             $table->timestamps();
+
+
         });
     }
 

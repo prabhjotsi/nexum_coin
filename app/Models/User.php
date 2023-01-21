@@ -21,6 +21,21 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'username',
+        'phone',
+        'sponsor_code',
+        'password',
+        'total_deposite',
+        'direct_group',
+        'total_group',
+        'is_active',
+        'active_date',
+        'total_income',
+        'total_withdraw',
+        'current_withdraw_request',
+        'total_group_active',
+        'total_group_deposite',
+        'status'
     ];
 
     /**
