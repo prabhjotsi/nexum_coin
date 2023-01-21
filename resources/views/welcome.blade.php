@@ -4,7 +4,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
         <meta name="viewport" content="width=device-width" />
         <meta charset="utf-8" />
-        <title>Nexum Coins</title>
+        <title>Nexum Coin</title>
         <meta content="width=device-width, initial-scale=1.0" />
         <!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
         <link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -203,15 +203,25 @@ s0.parentNode.insertBefore(s1,s0);
                                 <div class="Header_block__h4jLz">
                                     <ul class="">
                                         <li><a href="#about">About</a></li>
-                                        <li><a href="#token">NEXM Coins</a></li>
+                                        <li><a href="#token">NEXM Coin</a></li>
                                         <li><a href="#vision">Vision</a></li>
                                         <li><a href="#howtobuy">How to Buy</a></li>
                                         <li><a href="#blog">Blog</a></li>
                                       
                                     </ul>
+                                    @if (Route::has('login'))
                                     <div class="Header_buttons__2lJrb">
-                                        <a class="Header_button__3DIJh" href="login.html">Login</a>
+                                        <!-- <a class="" href="login.html">Login</a> -->
+
+                                        @auth
+                                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                        @else
+                                        <a href="{{ route('login') }}" class="Header_button__3DIJh">Log in</a>
+                                        @endauth
+
+
                                     </div>
+                                    @endif
                                 </div>
                             </div>
                         </nav>
@@ -290,7 +300,7 @@ s0.parentNode.insertBefore(s1,s0);
     display: flex;
     justify-content: center;
 ">
-                      <h1>15 Coins = 1 $</h1>
+                      <h1>15 Coin = 1 $</h1>
                             <a href="login.html" style="
     background: #03b4b3;
     height: 20px;
@@ -404,13 +414,13 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="Vision_scrollId__2rkhr"><span id="token"></span></div>
                 <div class="Vision_wrapper__3X2Ap">
                     <section class="Global_container__3MKQa">
-                        <h1>NEXM Coins</h1>
+                        <h1>NEXM Coin</h1>
                         <div class="Vision_block__3xjbs">
                             <div class="Vision_left__2uKpn">
                                 <p class="Vision_expression__1PNIA">
                                     We created NEXM utility coin to power the whole ecosystem and<!-- -->
                                     <span>to unbank the Shipping &amp; Oil industry.</span>
-                                    <!-- -->Traders, suppliers and other players need to utilise the coins if they require to:
+                                    <!-- -->Traders, suppliers and other players need to utilise the coin if they require to:
                                 </p>
                                 <div class="Vision_point__2ax7b">
                                     <img src="public/frontend/icons/icon_prob.svg" />
@@ -447,7 +457,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="Vision_info__Ff8-o Global_container__3MKQa">
                         <h1>Vision</h1>
                         <p class="Vision_infoP__BR40F">
-                            Our vision is for Nexum Coins to become the main element of tokenization in<!-- -->
+                            Our vision is for Nexum Coin to become the main element of tokenization in<!-- -->
                             <span>shipping and oil transactions worldwide.</span> We aim to provide alternative financial tools and to introduce DeFi, driving innovation in the shipping industry. <br />
                             <br />
                             <span>Industry adoption, driven by clear economic benefits and utility, is the main factor influencing the success of a coin. We have clear plan on how to achieve this.</span>
@@ -470,7 +480,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div class="Token_upper__2LDtJ">
                                         <div class="Token_one__2sTTm">
                                             <p>Coin name:</p>
-                                            <h1>Nexum Coins</h1>
+                                            <h1>Nexum Coin</h1>
                                         </div>
                                         <div class="Token_two__nwZGD">
                                             <p>Total supply:</p>
@@ -830,7 +840,7 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <div class="Disclaimers_disclaimers__2RHcq">
                     <div>
-                        <p>© 2022, Nexum Coins</p>
+                        <p>© 2022, Nexum Coin</p>
                         <p>All rights reserved</p>
                     </div>
                     <div class="Disclaimers_links__3SBpJ">
