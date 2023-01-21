@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\RegisterUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +20,6 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
-Route::post('/search.sponsor', [RegisterUserController::class, 'search_sponsorid'])->name('search.sponsorid');
 
 require __DIR__.'/auth.php';
 
