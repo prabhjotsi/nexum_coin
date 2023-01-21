@@ -102,9 +102,7 @@ body{height: 100%;max-height: unset;background: url('public/frontend/images/1267
                         </div>
                     </div>
                 </div>
-                <x-button class="ml-3">
-                    {{ __('Log in') }}
-                </x-button>
+                <button class="ml-3">{{ __('Log in') }}</button>
                 <!-- <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
       </form>
                 <div class="row">
