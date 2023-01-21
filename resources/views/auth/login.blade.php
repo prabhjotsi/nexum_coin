@@ -74,25 +74,25 @@ body{height: 100%;max-height: unset;background: url('public/frontend/images/1267
                 <p>Login to your Account.</p>
                 <form action="{{ route('login') }}" method="post">
                     @csrf
-                  <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row">
+                  <!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row"> -->
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="text" required class="form-control "  rounded-xs id="ownid" name="ownid" placeholder="Enter User Id">
-                            <label for="ownid" class="color-theme">User Id</label>
+                            <input type="email" required class="form-control "  rounded-xs id="email" name="email" :value="old('email')" placeholder="Enter User Id">
+                            <label for="ownid" class="color-theme" :value="__('Email')">User Id</label>
                             <span>(required)</span>
                            
-                                            </div>
-                                                                                    </div>
-                                        <div class="col-12 col-lg-6 col-md-6">
-                                            <div class="form-custom form-label form-border form-icon mb-4 bg-transparent">
-                                                <i class="bi bi-asterisk font-13"></i>
-                                                <input type="password" required class="form-control rounded-xs "  id="password" name="password" placeholder="Enter Password">
-                                                <label for="c2" class="color-theme">Password</label>
-                                                <span>(required)</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6">
+                        <div class="form-custom form-label form-border form-icon mb-4 bg-transparent">
+                            <i class="bi bi-asterisk font-13"></i>
+                            <input type="password" required autocomplete="current-password" class="form-control rounded-xs "  id="password" name="password" placeholder="Enter Password">
+                            <label for="password" class="color-theme" :value="__('Password')">Password</label>
+                            <span>(required)</span>
                                                
                         </div>
-                                            </div>
+                    </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-check form-check-custom">
                             <input class="form-check-input" type="checkbox" name="type" value="" id="c2a">
@@ -105,7 +105,7 @@ body{height: 100%;max-height: unset;background: url('public/frontend/images/1267
                 <x-button class="ml-3">
                     {{ __('Log in') }}
                 </x-button>
-                <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">
+                <!-- <input type="submit" value="Sign In" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
       </form>
                 <div class="row">
                     <div class="col-6 text-start">
