@@ -374,7 +374,7 @@ body{
                         </div>
                     </div>
                     <div class="col-6 ">
-                        <input type="submit" value="signup" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">
+                        <input type="submit" id="reg_btn" value="signup" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">
                     </div>
                      <div class="col-6 text-center">
                         <a href="{{ route('login') }}" class="font-11 color-theme  pt-4 d-block"><span>Sign In Account</span></a>
