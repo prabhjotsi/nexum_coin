@@ -80,9 +80,14 @@ body{
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Sponser Code">
-                            <label for="name" class="color-theme">Sponser Code</label>
+                            <input type="text" required  class="form-control rounded-xs " id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
+                            <label for="sponsorcode" class="color-theme">Sponsor Code</label>
                             <span>(required)</span>
+							<span id="spon_msg"></span>
+							@error('sponsor_id')
+								<br>
+								<span class="text-danger">{{$message}}</span>
+							@enderror
                         </div>
                     </div>
 					<div class="col-12 col-lg-6 col-md-6">
@@ -378,6 +383,35 @@ body{
             </div>
         </div>
 	</div>
+	<script>
+	$(document).ready(function(){
+		$('#sponsor_id').on('keyup', function(){
+			$('#spon_msg').text('Searching...');
+			var sponsor_id = this.value;
+			$.ajax({
+				url: "{{route('search.sponsorid')}}",
+				type: "POST",
+				data: {
+					sponsor_id: sponsor_id,
+					_token: '{{csrf_token()}}'
+				},
+				success: function(result){
+					// alert(result);
+					if(result==0){
+						$('#spon_msg').text("not valid");
+						$('#spon_msg').css('color','red');
+						$('#reg_btn').hide();
+					}
+					else{
+						$('#spon_msg').text(result);
+						$('#spon_msg').css('color','green');
+						$('#reg_btn').show();
+					}
+				}
+			});
+		});
+	});
+</script>
     <!-- <script src="scripts/bootstrap.min.html"></script> -->
     <script src="public/frontend/js/custom.js"></script>
 </body>
