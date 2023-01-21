@@ -87,7 +87,7 @@ body{
                     </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent" style="display: flex;">
-							<select name="countryCode" id="" style="width: 104px;border: 1px solid black;">
+							<!-- <select name="countryCode" id="" style="width: 104px;border: 1px solid black;">
 								<option data-countrycode="GB" value="44" selected="">UK (+44)</option>
 								<option data-countrycode="US" value="1">USA (+1)</option>
 								<optgroup label="Other countries">
@@ -288,11 +288,11 @@ body{
 									<option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
 									<option data-countrycode="TV" value="688">Tuvalu (+688)</option>
 									<option data-countrycode="UG" value="256">Uganda (+256)</option>
-									<!-- <option data-countryCode="GB" value="44">UK (+44)</option> -->
+									 <option data-countryCode="GB" value="44">UK (+44)</option> 
 									<option data-countrycode="UA" value="380">Ukraine (+380)</option>
 									<option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
 									<option data-countrycode="UY" value="598">Uruguay (+598)</option>
-									<!-- <option data-countryCode="US" value="1">USA (+1)</option> -->
+									<option data-countryCode="US" value="1">USA (+1)</option> 
 									<option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
 									<option data-countrycode="VU" value="678">Vanuatu (+678)</option>
 									<option data-countrycode="VA" value="379">Vatican City (+379)</option>
@@ -306,7 +306,8 @@ body{
 									<option data-countrycode="ZM" value="260">Zambia (+260)</option>
 									<option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
 								</optgroup>
-							</select>
+							</select> -->
+							<i class="bi bi-asterisk font-13"></i>
                             <input type="number" required minlength="5" value=""  class="form-control rounded-xs " id="mobile" name="mobile" placeholder="Mobile">
                             <label for="mobile" class="color-theme">Mobile</label>
                             <span>(required)</span>
@@ -338,7 +339,7 @@ body{
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-asterisk font-13"></i>
-                            <input type="password" class="form-control rounded-xs " id="txnPassword"  name="txnPassword" placeholder="Transaction Password">
+                            <input type="password" class="form-control rounded-xs " id="txnPassword"  name="password_confirmation" placeholder="Transaction Password">
                             <label for="txnPassword" class="color-theme">Transaction Password</label>
                             <span>(required)</span>
                         </div>
