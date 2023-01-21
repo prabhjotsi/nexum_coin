@@ -291,7 +291,7 @@ s0.parentNode.insertBefore(s1,s0);
     justify-content: center;
 ">
                       <h1>15 Coins = 1 $</h1>
-                            <a href="https://www.nexumcoins.com/login" style="
+                            <a href="login.html" style="
     background: #03b4b3;
     height: 20px;
     padding: 10px;
@@ -306,14 +306,26 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
     </div>
                         <div class="Platforms_platforms__3UirB">
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/coinmarketcap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/coingecko.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/etherscan.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/coinmarketcap.svg" alt="linkedin-logo" />
+                            </a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/coingecko.svg" alt="linkedin-logo" />
+                            </a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/etherscan.svg" alt="linkedin-logo" />
+                            </a>
                         </div>
                         <div class="Platforms_platformsBottom__1L_eM">
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/apeswap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/pancakeswap.svg" alt="linkedin-logo" /></a>
-                            <a  href="javascript:void(0)"><img src="public/frontend/images/quickswap.svg" alt="linkedin-logo" /></a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/apeswap.svg" alt="linkedin-logo" />
+                            </a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/pancakeswap.svg" alt="linkedin-logo" />
+                            </a>
+                            <a  href="javascript:void(0)">
+                                <img src="public/frontend/images/quickswap.svg" alt="linkedin-logo" />
+                            </a>
                         </div>
                     </div>
                 </section>
