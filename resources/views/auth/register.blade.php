@@ -67,9 +67,24 @@ body{
             <div class="card-center mt-5 mx-3 px-4 py-4  rounded-m" style="background:white">
                 <img src="public/frontend/images/nxm_logo.svg" style="border-radius: 13px;width:130px" />
                 <h1 class="font-10 font-800 mb-0">Nexum Coin</h1>
+				@if(Session::has('message'))
+						<div class="alert alert-success">{{Session::get('message')}}</div>
+					@endif
+					@if(Session::has('notmessage'))
+						<div class="alert alert-danger">{{Session::get('notmessage')}}</div>
+					@endif
                 <form action="{{ route('register') }}" method="POST">
-					<input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row">
+					@csrf
+					<!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row"> -->
                     <div class="col-12 col-lg-6 col-md-6">
+                        <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
+                            <i class="bi bi-person-circle font-13"></i>
+                            <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Sponser Code">
+                            <label for="name" class="color-theme">Sponser Code</label>
+                            <span>(required)</span>
+                        </div>
+                    </div>
+					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
                             <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Name">
