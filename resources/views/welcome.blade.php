@@ -10,25 +10,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com/" />
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="true" />
         <meta name="next-head-count" content="8" />
-        <link rel="preload" href="frontend/css/0e4412c827f0be2b.css" as="style" />
-        <link rel="stylesheet" href="frontend/css/0e4412c827f0be2b.css" data-n-g="" />
-        <link rel="preload" href="frontend/css/81507c457160dd77.css" as="style" />
-        <link rel="stylesheet" href="frontend/css/81507c457160dd77.css" data-n-p="" />
-        <link rel="preload" href="frontend/css/8047a7cb53b84f9f.css" as="style" />
-        <link rel="stylesheet" href="frontend/css/8047a7cb53b84f9f.css" data-n-p="" />
+        <link rel="preload" href="public/frontend/css/0e4412c827f0be2b.css" as="style" />
+        <link rel="stylesheet" href="public/frontend/css/0e4412c827f0be2b.css" data-n-g="" />
+        <link rel="preload" href="public/frontend/css/81507c457160dd77.css" as="style" />
+        <link rel="stylesheet" href="public/frontend/css/81507c457160dd77.css" data-n-p="" />
+        <link rel="preload" href="public/frontend/css/8047a7cb53b84f9f.css" as="style" />
+        <link rel="stylesheet" href="public/frontend/css/8047a7cb53b84f9f.css" data-n-p="" />
         <noscript data-n-css=""></noscript>
         <script defer="" nomodule="" src="https://www.nexumcoins.com/website/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script>
-        <script src="frontend/js/webpack-6c3805074feac2af.js" defer=""></script>
-        <script src="frontend/js/framework-0f8b31729833af61.js" defer=""></script>
-        <script src="frontend/js/main-55ba2a328c2e05c0.js" defer=""></script>
-        <script src="frontend/js/_app-fbe8754e84a70085.js" defer=""></script>
-        <script src="frontend/js/d7eeaac4-5549380d35918e95.js" defer=""></script>
-        <script src="frontend/js/7f0c75c1-5ec4efdf6617b19d.js" defer=""></script>
-        <script src="frontend/js/75fc9c18-4d2f0a9f494a9dad.js" defer=""></script>
-        <script src="frontend/js/36bcf0ca-3d97dc82e7b6ccbb.js" defer=""></script>
-        <script src="frontend/js/879-f06ba322c9f84a63.js" defer=""></script>
-        <script src="frontend/js/377-2f264fa3cd3ac719.js" defer=""></script>
-        <script src="frontend/js/490-f9b600763b08b718.js" defer=""></script>
+        <script src="public/frontend/js/webpack-6c3805074feac2af.js" defer=""></script>
+        <script src="public/frontend/js/framework-0f8b31729833af61.js" defer=""></script>
+        <script src="public/frontend/js/main-55ba2a328c2e05c0.js" defer=""></script>
+        <script src="public/frontend/js/_app-fbe8754e84a70085.js" defer=""></script>
+        <script src="public/frontend/js/d7eeaac4-5549380d35918e95.js" defer=""></script>
+        <script src="public/frontend/js/7f0c75c1-5ec4efdf6617b19d.js" defer=""></script>
+        <script src="public/frontend/js/75fc9c18-4d2f0a9f494a9dad.js" defer=""></script>
+        <script src="public/frontend/js/36bcf0ca-3d97dc82e7b6ccbb.js" defer=""></script>
+        <script src="public/frontend/js/879-f06ba322c9f84a63.js" defer=""></script>
+        <script src="public/frontend/js/377-2f264fa3cd3ac719.js" defer=""></script>
+        <script src="public/frontend/js/490-f9b600763b08b718.js" defer=""></script>
         <!--<script src="https://www.nexumcoins.com/website/_next/static/chunks/pages/index-aa7bc8e078bccf0d.js" defer=""></script>-->
         <script src="https://www.nexumcoins.com/website/_next/static/ssK1YCkspT7Q5f9KgqLhb/_buildManifest.js" defer=""></script>
         <script src="https://www.nexumcoins.com/website/_next/static/ssK1YCkspT7Q5f9KgqLhb/_ssgManifest.js" defer=""></script>
@@ -197,7 +197,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div id="up">
                         <nav class="Header_DesktopNavigation__V7DRf">
                             <a href="/">
-                                <img src="frontend/images/nxm_logo.svg" />
+                                <img src="public/frontend/images/nxm_logo.svg" />
                             </a>
                             <div class="Header_navLinks__GyJX3">
                                 <div class="Header_block__h4jLz">
@@ -217,12 +217,12 @@ s0.parentNode.insertBefore(s1,s0);
                         </nav>
                         <nav class="Header_MobileNavigation__37BHg">
                             <a href="login.html">
-                                <img src="frontend/images/nxm_logo.svg" class="" /></a>
+                                <img src="public/frontend/images/nxm_logo.svg" class="" /></a>
                             <a  href="javascript:void(0)">
-                                <img class="Header_twitterLogo__1jtfu" src="icons/twitter_logo.svg" alt="twitter-logo" />
+                                <img class="Header_twitterLogo__1jtfu" src="public/frontend/icons/twitter_logo.svg" alt="twitter-logo" />
                             </a>
                             <a  href="javascript:void(0)">
-                                <img class="Header_telegramLogo__1ppCM" src="icons/telegram_logo.svg" alt="telegram-logo" />
+                                <img class="Header_telegramLogo__1ppCM" src="public/frontend/icons/telegram_logo.svg" alt="telegram-logo" />
                             </a>
                             <!--<svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="Header_hamburgerIcon__32moK" height="20" width="20" xmlns="http://www.w3.org/2000/svg">-->
                             <!--    <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor"></path>-->
@@ -263,8 +263,8 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div class="FirstScreen_buttonSection__1m1Zn">
                                         <p>Explore our community :</p>
                                         <div class="FirstScreen_social__BnLWh">
-                                            <a  href="javascript:void(0)"><img class="FirstScreen_telegramLogo__1Ig1w" src="icons/telegram_logo.svg" alt="telegram-logo" /></a>
-                                            <a  href="javascript:void(0)"><img class="FirstScreen_twitterLogo__3J2os" src="icons/twitter_logo.svg" alt="twitter-logo" /></a>
+                                            <a  href="javascript:void(0)"><img class="FirstScreen_telegramLogo__1Ig1w" src="public/frontend/icons/telegram_logo.svg" alt="telegram-logo" /></a>
+                                            <a  href="javascript:void(0)"><img class="FirstScreen_twitterLogo__3J2os" src="public/frontend/icons/twitter_logo.svg" alt="twitter-logo" /></a>
                                         </div>
                                     </div>
                                     <br>
@@ -334,7 +334,7 @@ s0.parentNode.insertBefore(s1,s0);
                         </a>
                         <a  class="DontMiss_articleCard__2piy6" href="javascript:void(0)">
                             <div>
-                                <img src="images/publishox_logo.svg" alt="yahoo" />
+                                <img src="public/frontend/images/publishox_logo.svg" alt="yahoo" />
                                 <p>Interview with our CEO about the future of Nexum</p>
                             </div>
                         </a>
@@ -349,23 +349,23 @@ s0.parentNode.insertBefore(s1,s0);
                                 <p class="Problems_p__187uZ">The very nature of shipping industry presents big challenges that lead to:</p>
                                 <div class="Problems_points__2AZ1H">
                                     <div class="Problems_point__li9VI">
-                                        <img src="icons/icon_prob.svg" />
+                                        <img src="public/frontend/icons/icon_prob.svg" />
                                         <p>Expensive Cross-border payments</p>
                                     </div>
                                     <div class="Problems_point__li9VI">
-                                        <img src="icons/icon_prob.svg" />
+                                        <img src="public/frontend/icons/icon_prob.svg" />
                                         <p>Delivery delays</p>
                                     </div>
                                     <div class="Problems_point__li9VI">
-                                        <img src="icons/icon_prob.svg" />
+                                        <img src="public/frontend/icons/icon_prob.svg" />
                                         <p>Failure of efficient cooperation and communication between all the key players</p>
                                     </div>
                                     <div class="Problems_point__li9VI">
-                                        <img src="icons/icon_prob.svg" />
+                                        <img src="public/frontend/icons/icon_prob.svg" />
                                         <p>Risk of bankruptcy caused by financial losses</p>
                                     </div>
                                     <div class="Problems_point__li9VI">
-                                        <img src="icons/icon_prob.svg" />
+                                        <img src="public/frontend/icons/icon_prob.svg" />
                                         <p>Fragmented and incomplete data</p>
                                     </div>
                                 </div>
@@ -377,7 +377,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <br />
                                     Nexum Platform powered by blockchain technology provides the solution by combining:
                                 </p>
-                                <img src="images/solution.svg" alt="" />
+                                <img src="public/frontend/images/solution.svg" alt="" />
                             </div>
                         </div>
                     </section>
@@ -401,31 +401,31 @@ s0.parentNode.insertBefore(s1,s0);
                                     <!-- -->Traders, suppliers and other players need to utilise the coins if they require to:
                                 </p>
                                 <div class="Vision_point__2ax7b">
-                                    <img src="icons/icon_prob.svg" />
+                                    <img src="public/frontend/icons/icon_prob.svg" />
                                     <p>Get access to Nexum’s data hub</p>
                                 </div>
                                 <div class="Vision_point__2ax7b">
-                                    <img src="icons/icon_prob.svg" />
+                                    <img src="public/frontend/icons/icon_prob.svg" />
                                     <p>Receive finance for vessel invoices</p>
                                 </div>
                                 <div class="Vision_point__2ax7b">
-                                    <img src="icons/icon_prob.svg" />
+                                    <img src="public/frontend/icons/icon_prob.svg" />
                                     <p>Get access to secure and instant multi-currency global payments</p>
                                 </div>
                             </div>
                             <div class="Vision_right__2L_TJ">
                                 <p>We aim to achieve that by partnering with:</p>
-                                <img src="images/nexum_vision.svg" />
+                                <img src="public/frontend/images/nexum_vision.svg" />
                                 <div class="Vision_partners__1SRlS">
                                     <h1>AND ITS PARTNERS:</h1>
                                     <div class="Vision_first__XQ2D_">
-                                        <a  href="javascript:void(0)"><img src="images/partners/pegasus_logo_crop.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="images/partners/oil.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="images/partners/stic.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/pegasus_logo_crop.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/oil.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/stic.png" alt="linkedin-logo" /></a>
                                     </div>
                                     <div class="Vision_second__2uVlK">
-                                        <a  href="javascript:void(0)"><img src="images/partners/fuel.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="images/partners/marasco.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/fuel.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/marasco.png" alt="linkedin-logo" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -449,10 +449,10 @@ s0.parentNode.insertBefore(s1,s0);
                             <div class="Token_tokenAllocation__2u2QS">
                                 <h1>How to Buy</h1>
                                 <div class="Token_logos__3egkU">
-                                    <a href="index.html#howtobuy"><img src="images/metamask.svg" alt="metamusk-logo" /></a>
-                                    <a  href="javascript:void(0)"><img src="images/apeswap.svg" alt="apeswap-logo" /></a>
-                                    <a  href="javascript:void(0)"><img src="images/pancakeswap.svg" alt="peackswap-logo" /></a>
-                                    <a  href="javascript:void(0)"><img src="images/quickswap.svg" alt="quickswap-logo" /></a>
+                                    <a href="index.html#howtobuy"><img src="public/frontend/images/metamask.svg" alt="metamusk-logo" /></a>
+                                    <a  href="javascript:void(0)"><img src="public/frontend/images/apeswap.svg" alt="apeswap-logo" /></a>
+                                    <a  href="javascript:void(0)"><img src="public/frontend/images/pancakeswap.svg" alt="peackswap-logo" /></a>
+                                    <a  href="javascript:void(0)"><img src="public/frontend/images/quickswap.svg" alt="quickswap-logo" /></a>
                                 </div>
                                 <div class="Token_block__x9uN5">
                                     <div class="Token_upper__2LDtJ">
@@ -472,15 +472,15 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div class="Token_lower__1W3yk">
                                         <div><p>Contracts:</p></div>
                                         <div class="Token_platforms__2TCic">
-                                            <a  class="Token_one__2sTTm" href="javascript:void(0)"><img src="images/polygonscan.svg" alt="linkedin-logo" /></a>
-                                            <a  class="Token_two__nwZGD" href="javascript:void(0)"><img src="images/bscscan.svg" alt="linkedin-logo" /></a>
-                                            <a  class="Token_three__gAHSF" href="javascript:void(0)"><img src="images/etherscan.svg" alt="linkedin-logo" /></a>
+                                            <a  class="Token_one__2sTTm" href="javascript:void(0)"><img src="public/frontend/images/polygonscan.svg" alt="linkedin-logo" /></a>
+                                            <a  class="Token_two__nwZGD" href="javascript:void(0)"><img src="public/frontend/images/bscscan.svg" alt="linkedin-logo" /></a>
+                                            <a  class="Token_three__gAHSF" href="javascript:void(0)"><img src="public/frontend/images/etherscan.svg" alt="linkedin-logo" /></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="Token_charts__2B39H"><img src="images/chart1.png" alt="" class="Token_chart1__1wMXC" />
-                                <img src="images/chart2.png" alt="" class="Token_chart2__62ejJ" /></div>
+                            <div class="Token_charts__2B39H"><img src="public/frontend/images/chart1.png" alt="" class="Token_chart1__1wMXC" />
+                                <img src="public/frontend/images/chart2.png" alt="" class="Token_chart2__62ejJ" /></div>
                         </section>
                     </div>
                 </div>
@@ -497,12 +497,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>NEXUM story</h3>
                                                         </div>
                                                         <p>Story of NEXUM starts in 2019 just a week before some of the incidents that life decides without asking, but still..</p>
@@ -517,12 +517,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>Going Multi-Chain or the life after Ethereum</h3>
                                                         </div>
                                                         <p>Multichain solutions will change the blockchain space from an “interesting new technology” to an essential, high-growth industry...</p>
@@ -537,12 +537,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>Other side of the LUNA</h3>
                                                         </div>
                                                         <p>Two weeks ago sitting down with a friend in one of the most prominent health and business clubs in Chicago we take a look into...</p>
@@ -557,12 +557,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>Guybrush Threepwood</h3>
                                                         </div>
                                                         <p>Guybrush was a child hero to many of us. There is still a lot of admiration for the inventor of this name between us, n’est-ce pas?</p>
@@ -577,12 +577,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" />
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" />
                                                             </a>
                                                             <h3>Why NEXUM</h3>
                                                         </div>
@@ -600,12 +600,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>NEXUM story</h3>
                                                         </div>
                                                         <p>Story of NEXUM starts in 2019 just a week before some of the incidents that life decides without asking, but still..</p>
@@ -620,12 +620,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>Going Multi-Chain or the life after Ethereum</h3>
                                                         </div>
                                                         <p>Multichain solutions will change the blockchain space from an “interesting new technology” to an essential, high-growth industry...</p>
@@ -640,12 +640,12 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
                                                             <a  href="javascript:void(0)">
-                                                                <img src="icons/medium.png" alt="yahoo" /></a>
+                                                                <img src="public/frontend/icons/medium.png" alt="yahoo" /></a>
                                                             <h3>Other side of the LUNA</h3>
                                                         </div>
                                                         <p>Two weeks ago sitting down with a friend in one of the most prominent health and business clubs in Chicago we take a look into...</p>
@@ -660,7 +660,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
@@ -680,7 +680,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
@@ -703,7 +703,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <div>
                                         <div tabindex="-1" style="width: 100%; display: inline-block;">
                                             <div class="Blog_SliderItem__3dZNy">
-                                                <div><img src="images/blogFrame.png" alt="blogFrame" /></div>
+                                                <div><img src="public/frontend/images/blogFrame.png" alt="blogFrame" /></div>
                                                 <div class="Blog_text__xD87T">
                                                     <div>
                                                         <div class="Blog_publication__3xHXE">
@@ -732,13 +732,13 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="Blog_media__35gIs">
                         <h1>Media about Us</h1>
                         <div class="Blog_icons__3FdOF">
-                            <a  href="javascript:void(0)"><img src="images/coin_gape.png" alt="coingape" class="Blog_img__2Z40O" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/coin_gape.png" alt="coingape" class="Blog_img__2Z40O" /></a>
                             <a  href="javascript:void(0)">
-                                <img src="images/crypto_logo.svg" alt="cryptonews" class="Blog_img__2Z40O" />
+                                <img src="public/frontend/images/crypto_logo.svg" alt="cryptonews" class="Blog_img__2Z40O" />
                             </a>
-                            <a  href="javascript:void(0)"><img src="images/yahoo.svg" alt="yahoo_finance" class="Blog_img__2Z40O" /></a>
+                            <a  href="javascript:void(0)"><img src="public/frontend/images/yahoo.svg" alt="yahoo_finance" class="Blog_img__2Z40O" /></a>
                             <a  href="javascript:void(0)">
-                                <img src="images/publishox_logo.svg" alt="publish0x" class="Blog_img__2Z40O" />
+                                <img src="public/frontend/images/publishox_logo.svg" alt="publish0x" class="Blog_img__2Z40O" />
                             </a>
                         </div>
                     </div>
@@ -746,7 +746,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <h1>Download our White Paper to learn more</h1>
                         <div class="Blog_pdf__3ar-z">
                             <a  href="javascript:void(0)">
-                                <div class="Blog_link__3Xt0c"><span>White Paper.pdf</span><img src="images/icon_pdf.svg" alt="linkedin-logo" /></div>
+                                <div class="Blog_link__3Xt0c"><span>White Paper.pdf</span><img src="public/frontend/images/icon_pdf.svg" alt="linkedin-logo" /></div>
                             </a>
                         </div>
                     </div>
@@ -756,7 +756,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div>
                         <h2 class="ContactForm_h2__134Q6">Get in Touch</h2>
                         <div class="ContactForm_inputs__3avR_">
-                            <div><img src="images/contact_img.svg" alt="contact-form-img" /></div>
+                            <div><img src="public/frontend/images/contact_img.svg" alt="contact-form-img" /></div>
                             <div class="ContactForm_form__blATH">
                                 <div class="ContactForm_name__2mk3x">
                                     <input type="text" class="ContactForm_first__2jDUW" name="firstName" placeholder="First name" id="firstName" value="" required="" />
@@ -788,9 +788,9 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="Footer_logo__266gj"></div>
                     <div class="Footer_footer__3f33N">
                         <div class="Footer_left__29bi-">
-                            <img src="images/nxm_logo.svg" alt="nxm-logo" class="Footer_logo__266gj" />
+                            <img src="public/frontend/images/nxm_logo.svg" alt="nxm-logo" class="Footer_logo__266gj" />
                             <p>Media about us:</p>
-                            <a  href="javascript:void(0)"><img class="" src="icons/medium.png" alt="medium-logo" /></a>
+                            <a  href="javascript:void(0)"><img class="" src="public/frontend/icons/medium.png" alt="medium-logo" /></a>
                             <p class="Footer_email__3pKFA"></p>
                         </div>
                         <div class="Footer_middle__ZDtqA">
@@ -803,14 +803,14 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="Footer_right__thG2e">
                             <div class="Footer_text__2cCMo">
                                 <p>Official channels:</p>
-                                <div class="Footer_icons__1kJgl">
-                                    <a  href="javascript:void(0)"><img class="" src="icons/twitter_logo.svg" alt="twitter-logo" /></a>
-                                    <a  href="javascript:void(0)"><img class="" src="icons/telegram_logo.svg" alt="telegram-logo" /></a>
+                                <div class="Footer_public/frontend/icons__1kJgl">
+                                    <a  href="javascript:void(0)"><img class="" src="public/frontend/icons/twitter_logo.svg" alt="twitter-logo" /></a>
+                                    <a  href="javascript:void(0)"><img class="" src="public/frontend/icons/telegram_logo.svg" alt="telegram-logo" /></a>
                                 </div>
                             </div>
                             <div class="Footer_rightBottom__h0W7f">
                                 <a  href="javascript:void(0)">Join our community</a>
-                                <a  href="javascript:void(0)"><img class="Footer_telegramLogo2__37B5j" src="icons/telegram_logo.svg" alt="telegram-logo" /></a>
+                                <a  href="javascript:void(0)"><img class="Footer_telegramLogo2__37B5j" src="public/frontend/icons/telegram_logo.svg" alt="telegram-logo" /></a>
                                 <div class=""></div>
                             </div>
                         </div>
