@@ -431,13 +431,13 @@ s0.parentNode.insertBefore(s1,s0);
                                 <div class="Vision_partners__1SRlS">
                                     <h1>AND ITS PARTNERS:</h1>
                                     <div class="Vision_first__XQ2D_">
-                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/pegasus_logo_crop.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/oil.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/stic.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/pegasus_logo_crop.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/oil.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/stic.png" alt="linkedin-logo" /></a>
                                     </div>
                                     <div class="Vision_second__2uVlK">
-                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/fuel.png" alt="linkedin-logo" /></a>
-                                        <a  href="javascript:void(0)"><img src="public/frontend/images/partners/marasco.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/fuel.png" alt="linkedin-logo" /></a>
+                                        <a  href="javascript:void(0)"><img src="public/frontend/images/marasco.png" alt="linkedin-logo" /></a>
                                     </div>
                                 </div>
                             </div>
