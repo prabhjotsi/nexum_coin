@@ -75,8 +75,9 @@ body{
 					@endif
                 <form action="{{ route('register') }}" method="POST">
 					@csrf
-					<!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">                <div class="row"> -->
-                    <div class="col-6 col-lg-6 col-md-6">
+					<!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">    -->            
+					<div class="row"> 
+                    <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
                             <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Sponser Code">
@@ -84,7 +85,7 @@ body{
                             <span>(required)</span>
                         </div>
                     </div>
-					<div class="col-6 col-lg-6 col-md-6">
+					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
                             <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Name">
