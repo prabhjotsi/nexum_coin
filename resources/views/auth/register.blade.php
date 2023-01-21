@@ -73,13 +73,13 @@ body{
 					@endif
                 <form action="{{ route('register') }}" method="POST">
 					@csrf
-					<!-- <input type="hidden" name="_token" value="lSoTfyWA3mPkyZLIwbQwMYsOdMqz3NMwMVQn50m5">    -->            
+
 					<div class="row"> 
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="text" required  class="form-control rounded-xs " id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
-                            <label for="sponsorcode" id="sponsor_id" class="color-theme">Sponsor Code</label>
+                            <input type="text"   class="form-control " id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
+                            <label for="sponsorcode"  class="color-theme">Sponsor Code</label>
                             <span>(required)</span>
 							
                         </div>
