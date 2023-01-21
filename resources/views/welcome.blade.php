@@ -249,7 +249,22 @@ s0.parentNode.insertBefore(s1,s0);
                                         <li><a href="#blog">Blog</a></li>
                                        
                                     </ul>
-                                    <div class="Header_buttons__2lJrb"><a class="Header_button__3DIJh" href="login.html">Login</a></div>
+                                    @if (Route::has('login'))
+                                    <div class="Header_buttons__2lJrb">
+                                        <!-- <a class="" href="login.html">Login</a> -->
+
+                                        @auth
+                                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                        @else
+                                        <a href="{{ route('login') }}" class="Header_button__3DIJh">Log in</a>
+                                        @endauth
+
+
+                                    </div>
+                                    @endif
+                                    <!-- <div class="Header_buttons__2lJrb">
+                                        <a class="Header_button__3DIJh" href="login.html">Login</a>
+                                    </div> -->
                                 </div>
                             </div>
                         </nav>
