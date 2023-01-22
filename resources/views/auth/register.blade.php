@@ -71,7 +71,7 @@ body{
 
     <div id="page">
         <div class="page-content ">
-            <div class="card-center mt-5 mx-3 px-4 py-4  rounded-m" style="background:grey">
+            <div class="card-center mt-5 mx-3 px-4 py-4  rounded-m" style="background:white">
                 <img src="public/frontend/images/nxm_logo.svg" style="border-radius: 13px;width:130px" />
                 <h1 class="font-10 font-800 mb-0">Nexum Coin</h1>
 					@if(Session::has('message'))
