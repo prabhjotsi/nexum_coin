@@ -361,7 +361,7 @@ body{
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-asterisk font-13"></i>
-                            <input type="password" required class="form-control rounded-xs " id="password_confirmation"  name="password_confirmation" placeholder="Transaction Password">
+                            <input type="password" required class="form-control rounded-xs " id="password_confirmation"  name="password_confirmation" placeholder="Confirm Password">
                             <label for="password_confirmation" :value="__('Confirm Password')" class="color-theme">Confirm Password</label>
                             <span>(required)</span>
                         </div>
