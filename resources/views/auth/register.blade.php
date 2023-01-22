@@ -80,14 +80,14 @@ body{
                             <i class="bi bi-person-circle font-13"></i>
                             <input type="text" class="form-control" id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
                             <label for="sponsorcode"  class="color-theme">Sponsor Code</label>
-                            <span>(required)</span>
-							
-                        </div>
-						<span id="spon_msg"></span>
+                            <!-- <span>(required)</span> -->
+							<!-- <span id="spon_msg"></span>
 							@error('sponsor_id')
 								<br>
 								<span class="text-danger">{{$message}}</span>
-							@enderror
+							@enderror -->
+                        </div>
+						
                     </div>
 					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
@@ -340,13 +340,13 @@ body{
                             <label for="inviteCode" class="color-theme">Invite Code</label>
                             <span >(Required)</span>
                         </div>
-                        <p style="font-size:10px;color:blue;margin: 0px;padding: 0;float: right;" onclick="autofill()">Click here to autofill Invite Code</p>
-						<script>
+                        <!-- <p style="font-size:10px;color:blue;margin: 0px;padding: 0;float: right;" onclick="autofill()">Click here to autofill Invite Code</p> -->
+						<!-- <script>
 							function autofill()
 							{
 								document.getElementById("inviteCode").value="NXM000000";
 							}
-						</script>
+						</script> -->
                     </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
@@ -384,8 +384,8 @@ body{
 	</div>
 	<script>
 	$(document).ready(function(){
-		$('#sponsor_id').on('keyup', function(){
-			$('#spon_msg').text('Searching...');
+		$('#sponsor_id').on('change', function(){
+			// $('#spon_msg').text('Searching...');
 			var sponsor_id = this.value;
 			$.ajax({
 				url: "{{route('search.sponsorid')}}",
@@ -395,17 +395,17 @@ body{
 					_token: '{{csrf_token()}}'
 				},
 				success: function(result){
-					// alert(result);
-					if(result==0){
-						$('#spon_msg').text("not valid");
-						$('#spon_msg').css('color','red');
-						$('#reg_btn').hide();
-					}
-					else{
-						$('#spon_msg').text(result);
-						$('#spon_msg').css('color','green');
-						$('#reg_btn').show();
-					}
+					alert(result);
+					// if(result==0){
+					// 	$('#spon_msg').text("not valid");
+					// 	$('#spon_msg').css('color','red');
+					// 	$('#reg_btn').hide();
+					// }
+					// else{
+					// 	$('#spon_msg').text(result);
+					// 	$('#spon_msg').css('color','green');
+					// 	$('#reg_btn').show();
+					// }
 				}
 			});
 		});
