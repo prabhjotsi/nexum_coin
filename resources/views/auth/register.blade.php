@@ -396,16 +396,7 @@ body{
 				},
 				success: function(result){
 					alert(result);
-					// if(result==0){
-					// 	$('#spon_msg').text("not valid");
-					// 	$('#spon_msg').css('color','red');
-					// 	$('#reg_btn').hide();
-					// }
-					// else{
-					// 	$('#spon_msg').text(result);
-					// 	$('#spon_msg').css('color','green');
-					// 	$('#reg_btn').show();
-					// }
+					
 				}
 			});
 		});
