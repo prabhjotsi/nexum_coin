@@ -78,7 +78,7 @@ body{
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="text"   class="form-control " id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
+                            <input type="text" class="form-control" id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
                             <label for="sponsorcode"  class="color-theme">Sponsor Code</label>
                             <span>(required)</span>
 							
