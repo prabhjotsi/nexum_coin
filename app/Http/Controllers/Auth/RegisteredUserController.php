@@ -89,7 +89,7 @@ class RegisteredUserController extends Controller
             }
             else{
                 Session::flash('message', 'Sponsor Id Not Match');
-                return redirect('auth.register');
+                return redirect('register');
             }
             // =====================================
         // $user = User::create([

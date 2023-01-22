@@ -104,6 +104,10 @@ body{
                             <input type="text" required  class="form-control rounded-xs " id="name" name="name" :value="old('name')" placeholder="Enter Name">
                             <label for="name" :value="__('Name')" class="color-theme">Name</label>
                             <span>(required)</span>
+							</div>
+								@error('name')
+										<span class="text-danger">{{$message}}</span>
+								@enderror
                         </div>
                     </div>
 					<div class="col-12 col-lg-6 col-md-6">
