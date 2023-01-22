@@ -25,6 +25,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+	<script src="scripts/bootstrap.min.html"></script>
+    <script src="public/frontend/js/custom.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 	<style>
         .card-style {
             overflow: hidden;
@@ -386,7 +391,7 @@ body{
             </div>
         </div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
 	<script>
 		
 	$(document).ready(function(){
@@ -408,10 +413,7 @@ body{
 		});
 	});
 </script>
-    <script src="scripts/bootstrap.min.html"></script>
-    <script src="public/frontend/js/custom.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  
 
 </body>
 
