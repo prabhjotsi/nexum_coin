@@ -26,6 +26,7 @@ class RegisteredUserController extends Controller
     public function search_sponsorid(Request $request){
         $sponsor_id = $request->sponsor_id;
         echo $sponsor_id;
+        die;
         // $check = User::where(['username' => $sponsor_id, 'status' => 1])->exists();
         // if($check){
         //     $data = User::where(['username' => $sponsor_id, 'status' => 1])->first();

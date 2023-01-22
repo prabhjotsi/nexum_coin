@@ -101,16 +101,16 @@ body{
 					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="text" required  class="form-control rounded-xs " id="name" name="name" placeholder="Enter Name">
-                            <label for="name" class="color-theme">Name</label>
+                            <input type="text" required  class="form-control rounded-xs " id="name" name="name" :value="old('name')" placeholder="Enter Name">
+                            <label for="name" :value="__('Name')" class="color-theme">Name</label>
                             <span>(required)</span>
                         </div>
                     </div>
 					<div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-person-circle font-13"></i>
-                            <input type="email" required  class="form-control rounded-xs " id="email" name="email" placeholder="Enter Email">
-                            <label for="email" class="color-theme">Email</label>
+                            <input type="email" required  class="form-control rounded-xs " id="email" name="email" :value="old('email')" placeholder="Enter Email">
+                            <label for="email" :value="__('Email')" class="color-theme">Email</label>
                             <span>(required)</span>
                         </div>
                     </div>
@@ -393,25 +393,25 @@ body{
 	</div>
 	
 	<script>
-	$(document).ready(function(){
-		$('#sponsor_id').on('change', function(){
-			// $('#spon_msg').text('Searching...');
-			var sponsor_id = this.value;
-			$.ajax({
-				url: "{{route('search.sponsorid')}}",
-				type: "POST",
-				data: {
-					sponsor_id: sponsor_id,
-					_token: '{{csrf_token()}}'
-				},
-				success: function(result){
-					alert(result);
-					
-				}
+		$(document).ready(function(){
+			$('#sponsor_id').on('change', function(){
+				// $('#spon_msg').text('Searching...');
+				var sponsor_id = this.value;
+				$.ajax({
+					url: "{{route('search.sponsorid')}}",
+					type: "POST",
+					data: {
+						sponsor_id: sponsor_id,
+						_token: '{{csrf_token()}}'
+					},
+					success: function(result){
+						alert(result);
+						
+					}
+				});
 			});
 		});
-	});
-</script>
+	</script>
   
 
 </body>
