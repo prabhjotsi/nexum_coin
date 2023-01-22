@@ -386,12 +386,9 @@ body{
             </div>
         </div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script>
-		if(typeof jQuery == 'undefined'){
-    console.log('jQuery not loaded');
-  }else{
-    console.log('jQuery loaded');
-}
+		
 	$(document).ready(function(){
 		$('#sponsor_id').on('change', function(){
 			// $('#spon_msg').text('Searching...');
