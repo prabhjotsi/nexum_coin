@@ -404,7 +404,7 @@ body{
 </script>
     <script src="scripts/bootstrap.min.html"></script>
     <script src="public/frontend/js/custom.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
