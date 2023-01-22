@@ -412,7 +412,7 @@ body{
 	});
 </script>
     <!-- <script src="scripts/bootstrap.min.html"></script> -->
-    <script src="public/frontend/js/custom.js"></script>
+    <!-- <script src="public/frontend/js/custom.js"></script> -->
 </body>
 
 </html>
