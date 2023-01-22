@@ -387,6 +387,11 @@ body{
         </div>
 	</div>
 	<script>
+		if(typeof jQuery == 'undefined'){
+    console.log('jQuery not loaded');
+  }else{
+    console.log('jQuery loaded');
+}
 	$(document).ready(function(){
 		$('#sponsor_id').on('change', function(){
 			// $('#spon_msg').text('Searching...');
