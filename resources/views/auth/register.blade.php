@@ -337,52 +337,48 @@ body{
 								</optgroup>
 							</select> -->
 							<i class="bi bi-asterisk font-13"></i>
-                            <input type="number" required minlength="5" value=""  class="form-control rounded-xs " id="mobile" name="mobile" placeholder="Mobile">
-                            <label for="mobile" class="color-theme">Mobile</label>
+                            <input type="number" required  value="old('phone')"  class="form-control rounded-xs " id="phone" name="phone" placeholder="Mobile">
+                            <label for="phone" :value="__('Phone')" class="color-theme">Mobile</label>
                             <span>(required)</span>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-at font-16"></i>
-                            <input type="text"  minlength="8" maxlength="9" class="form-control rounded-xs " value="" id="inviteCode" name="inviteCode" placeholder="Enter Invite code">
-                            <label for="inviteCode" class="color-theme">Invite Code</label>
+                            <input type="text" required class="form-control rounded-xs " value="old('username')" id="username" name="username" placeholder="Enter Invite code">
+                            <label for="username" :value="__('username')" class="color-theme">Invite Code</label>
                             <span >(Required)</span>
                         </div>
-                        <!-- <p style="font-size:10px;color:blue;margin: 0px;padding: 0;float: right;" onclick="autofill()">Click here to autofill Invite Code</p> -->
-						<!-- <script>
-							function autofill()
-							{
-								document.getElementById("inviteCode").value="NXM000000";
-							}
-						</script> -->
                     </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-asterisk font-13"></i>
-                            <input type="password" class="form-control rounded-xs " id="password"  name="password" placeholder="Choose Password">
-                            <label for="password" class="color-theme">Choose Password</label>
+                            <input type="password" required class="form-control rounded-xs " id="password"  name="password" placeholder="Choose Password">
+                            <label for="password" :value="__('Password')" class="color-theme">Choose Password</label>
                             <span>(required)</span>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-asterisk font-13"></i>
-                            <input type="password" class="form-control rounded-xs " id="txnPassword"  name="password_confirmation" placeholder="Transaction Password">
-                            <label for="txnPassword" class="color-theme">Transaction Password</label>
+                            <input type="password" required class="form-control rounded-xs " id="password_confirmation"  name="password_confirmation" placeholder="Transaction Password">
+                            <label for="password_confirmation" :value="__('Confirm Password')" class="color-theme">Confirm Password</label>
                             <span>(required)</span>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-md-6 d-none">
+                    <!-- <div class="col-12 col-lg-6 col-md-6 d-none">
                         <div class="form-check form-check-custom">
                             <input   class="form-check-input" type="checkbox" name="type" value="" id="c2a">
                             <label class="form-check-label font-12" for="c2a">I agree with the <a href="#">Terms and Conditions</a>.</label>
                             <i class="is-checked color-highlight font-13 bi bi-check-circle-fill"></i>
                             <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-6 ">
-                        <input type="submit" id="reg_btn" value="signup" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">
+					<x-button class="ml-4">
+                    {{ __('Register') }}
+                </x-button>
+					<!-- <input type="submit" id="reg_btn" value="signup" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
                     </div>
                      <div class="col-6 text-center">
                         <a href="{{ route('login') }}" class="font-11 color-theme  pt-4 d-block"><span>Sign In Account</span></a>
