@@ -91,18 +91,7 @@ class RegisteredUserController extends Controller
                 Session::flash('message', 'Sponsor Id Not Match');
                 return redirect('register');
             }
-            // =====================================
-        // $user = User::create([
-        //     'name' => $request->name,
-        //     'email' => $request->email,
-        //     'password' => Hash::make($request->password),
-        // ]);
-
-        // event(new Registered($user));
-
-        // Auth::login($user);
-
-        // return redirect(RouteServiceProvider::HOME);
+      
     }
 
     public function generation_loop($sponsor_id,$user_id,$i){
