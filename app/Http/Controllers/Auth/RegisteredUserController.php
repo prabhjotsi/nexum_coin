@@ -51,8 +51,7 @@ class RegisteredUserController extends Controller
             'sponsor_id' => ['required'],
             'username' => ['required', 'unique:users'],
             'phone' => ['required', 'numeric', 'unique:users'],
-            // 'password' => 'required|confirmed|min:6',
-            // 'password_confirmation' => 'required'
+          
         ]);
             // =====================================
             $sponsor_check = User::where(['username' =>$request->sponsor_id,'status'=>1])->exists();
@@ -85,6 +84,7 @@ class RegisteredUserController extends Controller
                 Session::flash('message', 'Registration Success!');
                 // return redirect()->route('user.register');
                 return redirect(RouteServiceProvider::HOME);
+                echo "dasdfa";
                 
             }
             else{
