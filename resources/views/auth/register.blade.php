@@ -349,8 +349,8 @@ body{
                     <div class="col-12 col-lg-6 col-md-6">
                         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
                             <i class="bi bi-at font-16"></i>
-                            <input type="text" required class="form-control rounded-xs " value="old('username')" id="username" name="username" placeholder="Enter Username">
-                            <label for="username" :value="__('username')" class="color-theme">Username</label>
+                            <input type="text" required class="form-control rounded-xs "  id="username" name="username" placeholder="Enter Username">
+                            <label for="username"  class="color-theme">Username</label>
                             <span >(Required)</span>
                         </div>
                     </div>
