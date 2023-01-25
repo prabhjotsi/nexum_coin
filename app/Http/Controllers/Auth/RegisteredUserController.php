@@ -62,7 +62,7 @@ class RegisteredUserController extends Controller
                 $model->name = $request->name;
                 $model->username = $request->username;
                 $model->email = $request->email;
-                $model->mobile = $request->mobile;
+                $model->phone = $request->phone;
                 $model->sponsor_code = $sponsor_details->id;
                 $model->password = Hash::make($request->password);
                 $model->save();
