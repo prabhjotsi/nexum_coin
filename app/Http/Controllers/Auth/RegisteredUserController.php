@@ -28,7 +28,7 @@ class RegisteredUserController extends Controller
         $check = User::where(['username' => $sponsor_id, 'status' => 1])->exists();
         if($check){
             $data = User::where(['username' => $sponsor_id, 'status' => 1])->first();
-            echo $data->first_name;
+            echo $data->name;
         }
         else{
             echo '0';
