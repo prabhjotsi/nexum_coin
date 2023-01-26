@@ -89,7 +89,7 @@ body{
                             <i class="bi bi-person-circle font-13"></i>
                             <input type="text" class="form-control" id="sponsor_id" value="{{old('sponsor_id')}}"  name="sponsor_id" placeholder="Enter Sponser Code">
                             <label for="sponsorcode"  class="color-theme">Sponsor Code</label>
-                            <span>(required)</span> 
+                           
 							 <span id="spon_msg"></span>
 							@error('sponsor_id')
 								<br>
