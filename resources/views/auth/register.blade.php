@@ -93,6 +93,7 @@ body{
 							 <span id="spon_msg"></span>
 							@error('sponsor_id')
 								<br>
+								<br><br>
 								<span class="text-danger">{{$message}}</span>
 							@enderror
                         </div>
