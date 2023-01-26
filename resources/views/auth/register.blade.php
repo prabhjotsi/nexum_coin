@@ -50,13 +50,13 @@
             border-top-right-radius: 0.25rem;
             font-size: 20px;
         }
-        .invalid-feedback {
+        /* .invalid-feedback {
     display: block;
     width: 100%;
     margin-top: 0.25rem;
     font-size: .875em;
     color: #dc3545;
-}
+} */
 body{
     height: 100%;max-height: unset;background: url('public/frontend/images/1267580.jpg');
 }
@@ -158,14 +158,6 @@ body{
                             <span>(required)</span>
                         </div>
                     </div>
-                    <!-- <div class="col-12 col-lg-6 col-md-6 d-none">
-                        <div class="form-check form-check-custom">
-                            <input   class="form-check-input" type="checkbox" name="type" value="" id="c2a">
-                            <label class="form-check-label font-12" for="c2a">I agree with the <a href="#">Terms and Conditions</a>.</label>
-                            <i class="is-checked color-highlight font-13 bi bi-check-circle-fill"></i>
-                            <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
-                        </div>
-                    </div> -->
                     <div class="col-6 ">
 					<x-button class="btn btn-primary ml-4" id="reg_btn">
                     {{ __('Register') }}
