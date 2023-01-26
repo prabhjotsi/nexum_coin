@@ -167,7 +167,7 @@ body{
                         </div>
                     </div> -->
                     <div class="col-6 ">
-					<x-button class="ml-4">
+					<x-button class="ml-4" id="reg_btn">
                     {{ __('Register') }}
                 </x-button>
 					<!-- <input type="submit" id="reg_btn" value="signup" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4"> -->
@@ -193,8 +193,17 @@ body{
 						_token: '{{csrf_token()}}'
 					},
 					success: function(result){
-						alert(result);
-						
+						// alert(result);
+						if(result==0){
+							$('#spon_msg').text("not valid");
+						$('#spon_msg').css('color','red');
+						$('#reg_btn').hide();
+						}
+						else{
+						$('#spon_msg').text(result);
+						$('#spon_msg').css('color','green');
+						$('#reg_btn').show();
+					}
 					}
 				});
 			});
