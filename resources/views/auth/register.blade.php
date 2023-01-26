@@ -182,7 +182,7 @@ body{
 	
 	<script>
 		$(document).ready(function(){
-			$('#sponsor_id').on('change', function(){
+			$('#sponsor_id').on('keyup', function(){
 				$('#spon_msg').text('Searching...');
 				var sponsor_id = this.value;
 				$.ajax({
