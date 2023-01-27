@@ -142,10 +142,7 @@
       </div>
     </div>
   </nav>
-
-
     @yield('user.inex.content')
-
   <!-- Footer -->
   <footer class="footer" >
         <div class="row align-items-center justify-content-xl-between">

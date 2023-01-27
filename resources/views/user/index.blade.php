@@ -1,7 +1,5 @@
 @extends('dashboard')
-
 @section('content')
-
 
 <div class="main-content">
     <!-- Navbar -->
@@ -128,4 +126,5 @@
         </div>
       </div>
     </div>
-   @endsection
+</div>
+@endsection
