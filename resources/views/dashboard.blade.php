@@ -99,7 +99,7 @@
         <!-- Navigation -->
         <ul class="navbar-nav">
           <li class="nav-item  active ">
-            <a class="nav-link  active " href="{{route('user.dashboard')}}">
+            <a class="nav-link  active " href="{{route('dashboard')}}">
               <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
           </li>
