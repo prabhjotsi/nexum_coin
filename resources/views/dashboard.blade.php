@@ -144,7 +144,7 @@
   </nav>
 
 
-    @yield('user.index')
+    @yield('content')
 
   <!-- Footer -->
   <footer class="footer" >
