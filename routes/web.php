@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisteredUserController;
+use App\Http\Controllers\UserProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +21,11 @@ Route::post('/search.sponsor', [RegisterUserController::class, 'search_sponsorid
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('/profile', [UserProfileController::class, 'index'])->name('user.profile');
+Route::get('/account/{id}', [RegisterUserController::class, 'register_with_link'])->name('refferal.register');
+
+
 
 require __DIR__.'/auth.php';
 
